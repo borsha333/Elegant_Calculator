@@ -1,0 +1,5 @@
+class test{
+public int num;
+test (int x)
+{num=x;}
+};

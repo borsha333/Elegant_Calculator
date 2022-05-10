@@ -1,18 +1,21 @@
 package Branch;
 
 public  class inbranch1{
-      string id,name;
+
+      string id;
       float cgpa;
-      inbranch1(string s,string t,float f)
+      inbranch1(string s,float f)
       {
           this.id=s;
-          this.name=t;
-          this.cgpa=f;
+	this.cgpa=f;
       }
+         
+
+    
 
       public string getoutput(){
           return id;
-	  return name;
+
           return cgpa;
       }
       
