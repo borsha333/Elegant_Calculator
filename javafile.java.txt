@@ -1,0 +1,18 @@
+package Branch;
+
+public  class inbranch1{
+      string id;
+      float cgpa;
+      inbranch1(string s,float f)
+      {
+          this.id=s;
+          this.cgpa=f;
+      }
+
+      public string getoutput(){
+          return id;
+          return cgpa;
+      }
+      
+
+}
